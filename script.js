@@ -63,6 +63,8 @@ function country_use_US_Dollar(){
         console.log(`COUNTRY    : ${data[i].name.common}`);
         console.log(`DOLLAR-NAME: ${data[i].currencies.USD.name}`);
         console.log(`SYMBOL     : ${data[i].currencies.USD.symbol}`);
+         console.log("<---*--->");
+
     };
 
    
